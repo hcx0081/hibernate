@@ -15,6 +15,6 @@ public class Bill {
     private Integer id;
     private String name;
     
-    // 一个账单只属于一个消费者
+    // 多个账单可以属于一个消费者
     private Customer customer;
 }
